@@ -1,51 +1,56 @@
 <!DOCTYPE html>
 <html lang="pt-br">
 <head>
-    <style>
-        body {
-            background-color: rgb(0, 0, 0);
-        }
-        h1 {
-            color: rgb(255, 255, 255);
-            font-size: 24px;
-            text-align: center;
-        }
-        p {
-            color: rgb(255, 255, 255);
-            font-size: 18px;
-            text-align: center;
-        }
-        ul {
-            color: rgb(255, 255, 255);
-            font-size: 18px;
-            text-align: center;
-        }
-        a {
-            color: rgb(255, 255, 255);
-            font-size: 18px;
-            text-align: center;
-        }
-        li {
-            color: rgb(255, 255, 255);
-            font-size: 18px;
-            text-align: center;
-        }
-    </style>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Minha-Biografia</title>
     <link rel="stylesheet" href="css/style.css">
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
 </head>
 <body>
-    <h1>Matheus Fontana Machuca</h1>
-    <p>Olá! Meu nome é Matheus Fontana Machuca e sou estudante do UNASP e estou no 1º ano do ensino médio.
-       <p>Nasci no dia 05/03/2011 na cidade de Fronteiras-PI. Com 7 dias vim para Cosmópolis-SP.</p>
-       <ul>
-        <li>Jogo futebol e handball</li>
-        <li>Jogo videogame</li>
-        <li>Gosto de assistir filmes</li>
-        <li>Gosto de ouvir música</li>
-       </ul>
-       <a href="interesses.html">Coisas que eu gosto</a>
+    <div class="container">
+        <header>
+            <h1>Matheus Fontana Machuca</h1>
+        </header>
+        <main>
+            <section class="introducao">
+                <p>Olá! Meu nome é Matheus Fontana Machuca e sou estudante do UNASP e estou no 1º ano do ensino médio.</p>
+                <p>Nasci no dia 05/03/2011 na cidade de Fronteiras-PI. Com 7 dias vim para Cosmópolis-SP.</p>
+            </section>
+            <section class="interesses">
+                <ul>
+                    <div class="item-interesse">
+                        <li><i class="fas fa-futbol"></i> Jogo futebol e handball</li>
+                        <div class="imagens">
+                            <img src="https://media.giphy.com/media/eKXAz2PtyYGVG/giphy.gif" alt="Futebol GIF">
+                            <img src="https://tse1.mm.bing.net/th/id/OIP.UVt56jOhybmq7UHgAun8nQHaE8?rs=1&pid=ImgDetMain&o=7&rm=3" alt="Imagem de Handball">
+                        </div>
+                    </div>
+                    <div class="item-interesse">
+                        <li><i class="fas fa-gamepad"></i> Jogo videogame</li>
+                        <div class="imagens">
+                            <img src="https://www.geekykool.com/wp-content/uploads/2020/09/PS5DigitalEdition-300x200.jpg" alt="PS5">
+                        </div>
+                    </div>
+                    <div class="item-interesse">
+                        <li><i class="fas fa-film"></i> Gosto de assistir filmes</li>
+                        <div class="imagens">
+                            <img src="https://tse2.mm.bing.net/th/id/OIP.i9d1Lb3TsEPSk5awgyY_GgAAAA?rs=1&pid=ImgDetMain&o=7&rm=3" alt="Filme">
+                        </div>
+                    </div>
+                    <div class="item-interesse">
+                        <li><i class="fas fa-music"></i> Gosto de ouvir música</li>
+                        <div class="imagens">
+                            <img src="https://tse2.mm.bing.net/th/id/OIP.RtbspXYKny6lCUCsFwsy_QAAAA?rs=1&pid=ImgDetMain&o=7&rm=3" alt="Música">
+                        </div>
+                    </div>
+                </ul>
+            </section>
+        </main>
+        <footer>
+            <a href="interesses.html">Coisas que eu gosto</a>
+        </footer>
+    </div>
 </body>
 </html>
